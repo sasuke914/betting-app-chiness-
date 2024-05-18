@@ -8,7 +8,7 @@ You need node with a version of 20 or higher.
 
 You need expo installed as well: [expo](https://docs.expo.dev/)
 
-Clone the repo with ```git clone```
+Clone the repo with ```git  clone```
 
 Run with ```npm start```
 
