@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Text, Image, ScrollView, TouchableHighlight, } from "react-native";
+import { View, Text, Image, ScrollView, TouchableHighlight } from "react-native";
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
 import { Button, Input, Theme, Icon } from "@rneui/themed";
 import { Picker } from "@react-native-picker/picker";

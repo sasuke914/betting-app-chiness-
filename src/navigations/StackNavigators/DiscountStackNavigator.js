@@ -4,6 +4,8 @@ import { createStackNavigator } from "@react-navigation/stack";
 import Description from "../../screens/Description/Description";
 import Discount from "../../screens/Discounts/DiscountScreen";
 
+import { navOptionHandler } from "../../utils/funtions";
+
 const Stack = createStackNavigator();
 
 export default function DiscountStackNavigator() {

@@ -4,9 +4,9 @@ import { View, Text, Image, ScrollView, TouchableHighlight } from "react-native"
 import { sponsorData } from "../../data/dataArray";
 import styles from "./styles";
 
-export default function SponsorScreen() {
+export default function SponsorScreen({ navigation }) {
     const handlePress = () => {
-
+        navigation.navigate("Sign_in")
     }
     return (
         <ScrollView style={styles.sponsorContainer}>
@@ -29,7 +29,7 @@ export default function SponsorScreen() {
                 })
             }
             <View style={styles.endTitle}>
-                <Text style={{ opacity: 0.3 }}>---------------------------------     没有更多了     ---------------------------------</Text>
+                <Text style={{ opacity: 0.3 }}>-------------------------------     没有更多了     -------------------------------</Text>
             </View>
         </ScrollView>
     )
